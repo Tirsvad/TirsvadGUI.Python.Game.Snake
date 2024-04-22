@@ -16,10 +16,10 @@
   <h3 align="center">Snake</h3>
 
   <p align="center">
-    Snake turtle based graphic game written in python
+    Snake game, classics know from early mobile phone. Based on python turtle module for grapics.
     <br />
     <br />
-    <a href="https://github.com/TirsvadCLI/Python.Game.Snake">
+    <a href="https://github.com/TirsvadCLI/Python.Game.Snake/blob/main/images/snake01.png">
       <img src="images/snake01.png" alt="Logo" width="120" height="120">
     </a>
     <br />
@@ -36,7 +36,7 @@
 
 
 # Snake
-Classic snake game written in python
+Classic snake game written in python and turtle module
 
 # Getting Started
 This is an example of how you may give instructions on setting up your project locally. To get a local copy up and running follow these simple example steps.
@@ -58,6 +58,8 @@ For play the game go to the folder Snake and run game.
 cd Snake
 python main.py
 ```
+
+Use arrow keys for moving the snake
 
 ## Contributing
 
