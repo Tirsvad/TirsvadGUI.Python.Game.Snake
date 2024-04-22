@@ -16,7 +16,7 @@
   <h3 align="center">Snake</h3>
 
   <p align="center">
-    Snake game, classics know from early mobile phone. Based on python turtle module for grapics.
+    Snake game, classics know from early mobile phone. Based on python turtle module for graphics.
     <br />
     <br />
     <a href="https://github.com/TirsvadCLI/Python.Game.Snake/blob/main/images/snake01.png">
