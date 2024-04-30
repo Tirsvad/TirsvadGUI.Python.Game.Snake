@@ -1,7 +1,7 @@
 from turtle import Turtle
 import os.path
 import json
-from tkinter import simpledialog
+from tkinter import simpledialog, messagebox
 
 ALIGNMENT = "center"
 FONT_SIZE = 12
@@ -64,7 +64,6 @@ class Scoreboard(Turtle):
             self.print_line("")
 
         for index in range(0, len(self.game_data["high_score"])):
-            print(f"{index} {self.game_data['high_score'][index]}")
             if index == i:
                 self.print_line(
                     f"{self.game_data['high_score'][index]['name']:<25}  {self.game_data['high_score'][index]['score']:>5}",
@@ -72,6 +71,8 @@ class Scoreboard(Turtle):
             else:
                 self.print_line(
                     f"{self.game_data['high_score'][index]['name']:<25}  {self.game_data['high_score'][index]['score']:>5}")
+
+        return messagebox.askyesno(title="Snake message", message="Continue game?")
 
     def check_if_new_highscore(self):
         for index in range(0, len(self.game_data["high_score"])):
@@ -87,3 +88,10 @@ class Scoreboard(Turtle):
         self.goto(self.x_cor, self.y_cor)
         self.write(msg, align=ALIGNMENT, font=(FONT_NAME, FONT_SIZE, font_type))
         self.y_cor -= FONT_SIZE + 6
+
+    def reset(self):
+        self.goto(0, 270)
+        self.x_cor = 0
+        self.y_cor = 200
+        self.clear()
+        self.update_scoreboard()
