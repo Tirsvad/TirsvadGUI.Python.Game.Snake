@@ -20,7 +20,13 @@
     <br />
     <br />
     <a href="https://github.com/TirsvadCLI/Python.Game.Snake/blob/main/images/snake01.png">
-      <img src="images/snake01.png" alt="Logo" width="120" height="120">
+      <img src="images/screenshot01.png" alt="screenshot" width="120" height="120">
+    </a>
+    <a href="https://github.com/TirsvadCLI/Python.Game.Snake/blob/main/images/snake01.png">
+      <img src="images/screenshot02.png" alt="screenshot" height="120">
+    </a>
+    <a href="https://github.com/TirsvadCLI/Python.Game.Snake/blob/main/images/snake01.png">
+      <img src="images/screenshot03.png" alt="screenshot" width="120" height="120">
     </a>
     <br />
     <a href="https://github.com/TirsvadCLI/Python.Game.Snake"><strong>Explore the docs »</strong></a>
@@ -51,6 +57,7 @@ curl -L https://api.github.com/repos/TirsvadCLI/Python.Game.Snake/tarball | tar 
 ```
 
 For play the game go to the folder Snake and run game.
+It saves high scores and player name.
 
 ```commandline
 cd Snake

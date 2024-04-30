@@ -20,16 +20,22 @@ screen.onkey(fun=snake.set_heading_down, key="Down")
 screen.onkey(fun=snake.set_heading_left, key="Left")
 screen.onkey(fun=snake.set_heading_right, key="Right")
 
+
+def reset():
+
+    snake.reset()
+    scoreboard.reset()
+
 game_is_on = True
 while game_is_on:
     screen.update()
     time.sleep(.1)
-    game_is_on = snake.move()
+    if not snake.move():
+        game_is_on = scoreboard.game_over()
+        reset()
 
-    if snake.head.distance(food) < 15:
-        food.refresh()
-        scoreboard.increase_score()
-        snake.extend()
-
-scoreboard.game_over()
-screen.exitonclick()
+    else:
+        if snake.head.distance(food) < 15:
+            food.refresh()
+            scoreboard.increase_score()
+            snake.extend()
