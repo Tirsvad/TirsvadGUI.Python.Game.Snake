@@ -16,7 +16,7 @@
   <h3 align="center">Snake</h3>
 
   <p align="center">
-    Snake game, classics know from early mobile phone. Based on python turtle module for grapics.
+    Snake game, classics know from early mobile phone. Based on python turtle module for graphics.
     <br />
     <br />
     <a href="https://github.com/TirsvadCLI/Python.Game.Snake/blob/main/images/snake01.png">
@@ -26,8 +26,6 @@
     <a href="https://github.com/TirsvadCLI/Python.Game.Snake"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/TirsvadCLI/Python.Game.Snake">View Demo</a>
-    ·
     <a href="https://github.com/TirsvadCLI/Python.Game.Snake/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
     ·
     <a href="https://github.com/TirsvadCLI/Python.Game.Snake/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
