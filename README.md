@@ -19,13 +19,13 @@
     Snake game, classics know from early mobile phone. Based on python turtle module for graphics.
     <br />
     <br />
-    <a href="https://github.com/TirsvadCLI/Python.Game.Snake/blob/main/images/snake01.png">
+    <a href="https://github.com/TirsvadCLI/Python.Game.Snake/blob/main/images/screenshot01.png">
       <img src="images/screenshot01.png" alt="screenshot" width="120" height="120">
     </a>
-    <a href="https://github.com/TirsvadCLI/Python.Game.Snake/blob/main/images/snake01.png">
+    <a href="https://github.com/TirsvadCLI/Python.Game.Snake/blob/main/images/screenshot02.png">
       <img src="images/screenshot02.png" alt="screenshot" height="120">
     </a>
-    <a href="https://github.com/TirsvadCLI/Python.Game.Snake/blob/main/images/snake01.png">
+    <a href="https://github.com/TirsvadCLI/Python.Game.Snake/blob/main/images/screenshot03.png">
       <img src="images/screenshot03.png" alt="screenshot" width="120" height="120">
     </a>
     <br />
