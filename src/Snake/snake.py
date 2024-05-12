@@ -1,4 +1,5 @@
 from turtle import Turtle
+
 STARTING_POSITIONS = [(0, 0), (-20, 0), (-40, 0)]
 MOVE_DISTANCE = 20
 UP = 90
@@ -8,6 +9,7 @@ LEFT = 180
 
 
 class Snake:
+    head: Turtle
 
     def __init__(self):
         self.segments: list[Turtle] = []
@@ -63,9 +65,8 @@ class Snake:
 
     def reset(self):
         for index in range(len(self.segments) - 1, 0, -1):
-            self.segments[index].goto(700,700)
-        self.head.goto(700,700)
+            self.segments[index].goto(700, 700)
+        self.head.goto(700, 700)
         self.move()
         self.segments: list[Turtle] = []
         self.create_snake()
-
