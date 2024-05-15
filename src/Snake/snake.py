@@ -67,6 +67,5 @@ class Snake:
         for index in range(len(self.segments) - 1, 0, -1):
             self.segments[index].goto(700, 700)
         self.head.goto(700, 700)
-        self.move()
         self.segments: list[Turtle] = []
         self.create_snake()
