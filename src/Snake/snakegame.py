@@ -1,8 +1,9 @@
-from turtle import Screen
 import time
-from snake import Snake
+from turtle import Screen
+
 from food import Food
 from scoreboard import Scoreboard
+from snake import Snake
 
 
 class SnakeGame:
@@ -23,6 +24,7 @@ class SnakeGame:
         self.screen.onkey(fun=self.snake.set_heading_left, key="Left")
         self.screen.onkey(fun=self.snake.set_heading_right, key="Right")
 
+    def run(self):
         game_is_on = True
         while game_is_on:
             self.screen.update()
