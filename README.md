@@ -9,7 +9,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/TirsvadCLI/Python.Game.Snake">
+  <a href="https://github.com/TirsvadGUI/Python.Game.Snake">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -19,22 +19,22 @@
     Snake game, classics know from early mobile phone. Based on python turtle module for graphics.
     <br />
     <br />
-    <a href="https://github.com/TirsvadCLI/Python.Game.Snake/blob/main/images/screenshot01.png">
+    <a href="https://github.com/TirsvadGUI/Python.Game.Snake/blob/main/images/screenshot01.png">
       <img src="images/screenshot01.png" alt="screenshot" width="120" height="120">
     </a>
-    <a href="https://github.com/TirsvadCLI/Python.Game.Snake/blob/main/images/screenshot02.png">
+    <a href="https://github.com/TirsvadGUI/Python.Game.Snake/blob/main/images/screenshot02.png">
       <img src="images/screenshot02.png" alt="screenshot" height="120">
     </a>
-    <a href="https://github.com/TirsvadCLI/Python.Game.Snake/blob/main/images/screenshot03.png">
+    <a href="https://github.com/TirsvadGUI/Python.Game.Snake/blob/main/images/screenshot03.png">
       <img src="images/screenshot03.png" alt="screenshot" width="120" height="120">
     </a>
     <br />
-    <a href="https://github.com/TirsvadCLI/Python.Game.Snake"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/TirsvadGUI/Python.Game.Snake"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/TirsvadCLI/Python.Game.Snake/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
+    <a href="https://github.com/TirsvadGUI/Python.Game.Snake/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
     ·
-    <a href="https://github.com/TirsvadCLI/Python.Game.Snake/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
+    <a href="https://github.com/TirsvadGUI/Python.Game.Snake/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
   </p>
 </div>
 
@@ -53,7 +53,7 @@ In a terminal do following
 
 ```console
 mkdir Snake
-curl -L https://api.github.com/repos/TirsvadCLI/Python.Game.Snake/tarball | tar -xz --strip-components=3 -C Snake
+curl -L https://api.github.com/repos/TirsvadGUI/Python.Game.Snake/tarball | tar -xz --strip-components=3 -C Snake
 ```
 
 For play the game go to the folder Snake and run game.
@@ -92,15 +92,24 @@ git push origin feature
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/TirsvadCLI/Python.Game.Snake?style=for-the-badge
+
+[contributors-shield]: https://img.shields.io/github/contributors/TirsvadGUI/Python.Game.Snake?style=for-the-badge
 [contributors-url]: https://github.com/[github-repo]/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/TirsvadCLI/Python.Game.Snake?style=for-the-badge
-[forks-url]: https://github.com/TirsvadCLI/Python.Game.Snake/network/members
-[stars-shield]: https://img.shields.io/github/stars/TirsvadCLI/Python.Game.Snake?style=for-the-badge
-[stars-url]: https://github.com/TirsvadCLI/Python.Game.Snake/stargazers
-[issues-shield]: https://img.shields.io/github/issues/TirsvadCLI/Python.Game.Snake?style=for-the-badge
-[issues-url]: https://github.com/TirsvadCLI/Python.Game.Snake/issues
-[license-shield]: https://img.shields.io/github/license/TirsvadCLI/Python.Game.Snake?style=for-the-badge
-[license-url]: https://github.com/TirsvadCLI/Python.Game.Snake/blob/master/LICENSE.txt
+
+[forks-shield]: https://img.shields.io/github/forks/TirsvadGUI/Python.Game.Snake?style=for-the-badge
+
+[forks-url]: https://github.com/TirsvadGUI/Python.Game.Snake/network/members
+
+[stars-shield]: https://img.shields.io/github/stars/TirsvadGUI/Python.Game.Snake?style=for-the-badge
+
+[stars-url]: https://github.com/TirsvadGUI/Python.Game.Snake/stargazers
+
+[issues-shield]: https://img.shields.io/github/issues/TirsvadGUI/Python.Game.Snake?style=for-the-badge
+
+[issues-url]: https://github.com/TirsvadGUI/Python.Game.Snake/issues
+
+[license-shield]: https://img.shields.io/github/license/TirsvadGUI/Python.Game.Snake?style=for-the-badge
+
+[license-url]: https://github.com/TirsvadGUI/Python.Game.Snake/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/jens-tirsvad-nielsen-13b795b9/
