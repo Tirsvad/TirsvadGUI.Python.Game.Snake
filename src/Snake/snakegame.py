@@ -1,3 +1,6 @@
+"""The Classic Snake Game
+"""
+
 import time
 from turtle import Screen
 
@@ -7,6 +10,8 @@ from snake import Snake
 
 
 class SnakeGame:
+    """The Classic Snake Game"""
+
     def __init__(self):
         self.screen = Screen()
         self.screen.setup(width=600, height=600)
@@ -25,10 +30,11 @@ class SnakeGame:
         self.screen.onkey(fun=self.snake.set_heading_right, key="Right")
 
     def run(self):
+        """Running the game"""
         game_is_on = True
         while game_is_on:
             self.screen.update()
-            time.sleep(.1)
+            time.sleep(0.1)
             if not self.snake.move():
                 game_is_on = self.scoreboard.game_over()
                 self.reset()
@@ -40,6 +46,6 @@ class SnakeGame:
                     self.snake.extend()
 
     def reset(self):
-
+        """Reset snakebody and game score"""
         self.snake.reset()
         self.scoreboard.reset_score()
