@@ -1,4 +1,4 @@
-"""Classic snake game
+"""Snake body module
 """
 
 from turtle import Turtle
@@ -12,11 +12,7 @@ LEFT = 180
 
 
 class Snake:
-    """The Snake Game
-
-    Returns:
-        _type_: _description_
-    """
+    """The Snake body module"""
 
     head: Turtle
 
